@@ -1,0 +1,41 @@
+.single-cocktail {
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+	border-radius: 50%;
+	color: blueviolet;
+	font-weight: bold;
+}
+
+.cocktail-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid lightblue;
+}
+
+button {
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid lightblue;
+}
+button:hover {
+	cursor: pointer;
+	border: 2px solid red;
+}
+input {
+	border-radius: 3px;
+	border: 1px solid lightblue;
+}
+input:hover {
+	border: 2px solid red;
+	color: green;
+	font-weight: bold;
+}
